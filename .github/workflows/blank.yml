@@ -2,7 +2,7 @@ name: test_pixegami.py
 
 on:
   schedule:
-    - cron: '0 * * * *' # At 00:00 
+    - cron: '0 0 * * *' # At 00:00 
 
 jobs:
   build:
